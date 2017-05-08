@@ -1,3 +1,3 @@
-# senthil-emp-app
+# malli-nodeJs-assignment
 employee details
 # nodejs-assignment
