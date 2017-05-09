@@ -27,16 +27,16 @@ exports.addEmployee=function(req,res){
                     return;
                   }
 
-                  var newEmployee=new Employee();
+                  var newEmp=new Employee();
 
-                  newEmployee.email=email;
-                  newEmployee.name=name;
-                  newEmployee.dob=dob;
-                  newEmployee.gender=gender;
-                  newEmployee.department=department;
-                  newEmployee.age=age;
+                  newEmp.email=email;
+                  newEmp.name=name;
+                  newEmp.dob=dob;
+                  newEmp.gender=gender;
+                  newEmp.department=department;
+                  newEmp.age=age;
 
-                  newEmployee.save(function(err,savedEmployee){
+                  newEmp.save(function(err,savedEmployee){
                        if(err){
                           var message="Error occured while storing new employee !!!";
                           console.log(message+"\n"+err);

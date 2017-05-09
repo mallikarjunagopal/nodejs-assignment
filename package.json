@@ -1,12 +1,12 @@
 {
-  "name": "senthil-emp-app-project",
+  "name": "mallikarjuan-nodeJs-assignment",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Senthil Kannayram",
+  "author": "Mallikarjuan",
   "license": "Mindtree",
   "dependencies": {
     "express": "^4.15.2",
